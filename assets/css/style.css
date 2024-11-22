@@ -43,6 +43,7 @@ h4 {
     color: #fafafa;
 }
 
+
 /* --------------------------------------- Heading */
 
 header {
@@ -130,6 +131,14 @@ header {
 
 .list-inline-item:not(:last-child) {
     margin: 0;
+}
+
+
+/* --------------------------------------- Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
 }
 
 
