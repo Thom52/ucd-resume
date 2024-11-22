@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+
 /* --------------------------------------- Colors */
 
 .bg-color-name-title {
@@ -21,6 +22,7 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
+
 
 /* --------------------------------------- Heading */
 
@@ -60,6 +62,9 @@ header {
     color: #fff;
 }
 
+
+/* --------------------------------------- Menu */
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -77,4 +82,11 @@ header {
     height: 120px;
     text-align: center;
     padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
 }
