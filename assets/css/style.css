@@ -113,3 +113,10 @@ header {
     margin: 0;
 }
 
+
+/* --------------------------------------- Hover.CSS */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
