@@ -186,6 +186,10 @@ footer {
     background: #e84610;
 }
 
+#footer-details {
+    padding: 20px;
+}
+
 /* --------------------------------------- Hover.CSS */
 
 .hvr-sweep-to-bottom:before {
