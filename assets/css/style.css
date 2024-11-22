@@ -97,3 +97,9 @@ header {
     color: #fafafa;
     font-size: 26px;
 }
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+}
