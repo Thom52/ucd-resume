@@ -65,17 +65,17 @@ header {
 
 /* --------------------------------------- Menu */
 
-.list-inline-item:not(:last-child) {
+#nav {
     margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
 }
 
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+.menucontainer {
+    font-size: 0;
 }
 
 .menuitem {
@@ -108,3 +108,8 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
