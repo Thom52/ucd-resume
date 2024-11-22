@@ -162,6 +162,22 @@ footer {
     color: #e84610;
 }
 
+.socials-list {
+    padding-bottom: 15px;
+}
+
+.socials-list li a i {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 12px 0;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+}
+
 /* --------------------------------------- Hover.CSS */
 
 .hvr-sweep-to-bottom:before {
