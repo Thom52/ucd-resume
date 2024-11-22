@@ -158,6 +158,10 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
 /* --------------------------------------- Hover.CSS */
 
 .hvr-sweep-to-bottom:before {
