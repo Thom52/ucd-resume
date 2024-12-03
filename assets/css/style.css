@@ -370,9 +370,22 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+
 /* --------------------------------------- Hover.CSS */
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+
+/* --------------------------------------- Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
