@@ -305,6 +305,10 @@ footer {
     border-left: 1px solid;
 }
 
+.timeline-bottom {
+    margin-bottom: 25px;
+}
+
 .timeline-item p {
     margin: 0;
     padding: 0;
