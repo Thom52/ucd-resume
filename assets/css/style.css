@@ -298,6 +298,42 @@ footer {
     margin-bottom: 50px;
 }
 
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 2.4em;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background: #fafafa;
+}
 
 /* --------------------------------------- Hover.CSS */
 
